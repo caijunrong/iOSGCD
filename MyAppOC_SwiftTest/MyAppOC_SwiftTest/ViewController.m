@@ -1,0 +1,30 @@
+//
+//  ViewController.m
+//  MyAppOC_SwiftTest
+//
+//  Created by biyabi on 15/7/11.
+//  Copyright (c) 2015年 test. All rights reserved.
+//
+
+#import "ViewController.h"
+#import "ViewControllerSwuft.swift"
+
+@interface ViewController ()
+
+@end
+
+@implementation ViewController
+
+- (void)viewDidLoad {
+    [super viewDidLoad];
+    // Do any additional setup after loading the view, typically from a nib.
+    ViewControllerSwuft *vc = [[ViewControllerSwuft alloc]init];
+    
+}
+
+- (void)didReceiveMemoryWarning {
+    [super didReceiveMemoryWarning];
+    // Dispose of any resources that can be recreated.
+}
+
+@end

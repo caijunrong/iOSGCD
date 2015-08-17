@@ -1,0 +1,467 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		607590B71B50CBFB0041FEB3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607590B61B50CBFB0041FEB3 /* AppDelegate.swift */; };
+		607590B91B50CBFB0041FEB3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607590B81B50CBFB0041FEB3 /* ViewController.swift */; };
+		607590BC1B50CBFB0041FEB3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 607590BA1B50CBFB0041FEB3 /* Main.storyboard */; };
+		607590BE1B50CBFB0041FEB3 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 607590BD1B50CBFB0041FEB3 /* Images.xcassets */; };
+		607590C11B50CBFB0041FEB3 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 607590BF1B50CBFB0041FEB3 /* LaunchScreen.xib */; };
+		607590CD1B50CBFB0041FEB3 /* MyAppForBiyabiTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607590CC1B50CBFB0041FEB3 /* MyAppForBiyabiTests.swift */; };
+		607590D91B50CEC30041FEB3 /* TestModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 607590D81B50CEC30041FEB3 /* TestModel.m */; };
+		607590DC1B50CF6C0041FEB3 /* ViewAController.m in Sources */ = {isa = PBXBuildFile; fileRef = 607590DB1B50CF6C0041FEB3 /* ViewAController.m */; };
+		607591501B5107AA0041FEB3 /* ViewControllerV.m in Sources */ = {isa = PBXBuildFile; fileRef = 6075914E1B5107AA0041FEB3 /* ViewControllerV.m */; };
+		607591511B5107AA0041FEB3 /* ViewControllerV.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6075914F1B5107AA0041FEB3 /* ViewControllerV.xib */; };
+		607591551B5107C20041FEB3 /* TableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 607591531B5107C20041FEB3 /* TableViewCell.m */; };
+		607591561B5107C20041FEB3 /* TableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 607591541B5107C20041FEB3 /* TableViewCell.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		607590C71B50CBFB0041FEB3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 607590A91B50CBFB0041FEB3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 607590B01B50CBFB0041FEB3;
+			remoteInfo = MyAppForBiyabi;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		607590B11B50CBFB0041FEB3 /* MyAppForBiyabi.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyAppForBiyabi.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		607590B51B50CBFB0041FEB3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		607590B61B50CBFB0041FEB3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		607590B81B50CBFB0041FEB3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		607590BB1B50CBFB0041FEB3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		607590BD1B50CBFB0041FEB3 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		607590C01B50CBFB0041FEB3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		607590C61B50CBFB0041FEB3 /* MyAppForBiyabiTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MyAppForBiyabiTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		607590CB1B50CBFB0041FEB3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		607590CC1B50CBFB0041FEB3 /* MyAppForBiyabiTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyAppForBiyabiTests.swift; sourceTree = "<group>"; };
+		607590D61B50CEC30041FEB3 /* MyAppForBiyabi-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MyAppForBiyabi-Bridging-Header.h"; sourceTree = "<group>"; };
+		607590D71B50CEC30041FEB3 /* TestModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TestModel.h; path = ../TestModel.h; sourceTree = "<group>"; };
+		607590D81B50CEC30041FEB3 /* TestModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TestModel.m; path = ../TestModel.m; sourceTree = "<group>"; };
+		607590DA1B50CF6C0041FEB3 /* ViewAController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewAController.h; sourceTree = "<group>"; };
+		607590DB1B50CF6C0041FEB3 /* ViewAController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewAController.m; sourceTree = "<group>"; };
+		6075914D1B5107AA0041FEB3 /* ViewControllerV.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewControllerV.h; sourceTree = "<group>"; };
+		6075914E1B5107AA0041FEB3 /* ViewControllerV.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewControllerV.m; sourceTree = "<group>"; };
+		6075914F1B5107AA0041FEB3 /* ViewControllerV.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ViewControllerV.xib; sourceTree = "<group>"; };
+		607591521B5107C20041FEB3 /* TableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TableViewCell.h; sourceTree = "<group>"; };
+		607591531B5107C20041FEB3 /* TableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TableViewCell.m; sourceTree = "<group>"; };
+		607591541B5107C20041FEB3 /* TableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TableViewCell.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		607590AE1B50CBFB0041FEB3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		607590C31B50CBFB0041FEB3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		607590A81B50CBFB0041FEB3 = {
+			isa = PBXGroup;
+			children = (
+				607590B31B50CBFB0041FEB3 /* MyAppForBiyabi */,
+				607590C91B50CBFB0041FEB3 /* MyAppForBiyabiTests */,
+				607590B21B50CBFB0041FEB3 /* Products */,
+				607590D61B50CEC30041FEB3 /* MyAppForBiyabi-Bridging-Header.h */,
+			);
+			sourceTree = "<group>";
+		};
+		607590B21B50CBFB0041FEB3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				607590B11B50CBFB0041FEB3 /* MyAppForBiyabi.app */,
+				607590C61B50CBFB0041FEB3 /* MyAppForBiyabiTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		607590B31B50CBFB0041FEB3 /* MyAppForBiyabi */ = {
+			isa = PBXGroup;
+			children = (
+				607590D71B50CEC30041FEB3 /* TestModel.h */,
+				607590D81B50CEC30041FEB3 /* TestModel.m */,
+				607590DA1B50CF6C0041FEB3 /* ViewAController.h */,
+				607590DB1B50CF6C0041FEB3 /* ViewAController.m */,
+				607590B61B50CBFB0041FEB3 /* AppDelegate.swift */,
+				607590B81B50CBFB0041FEB3 /* ViewController.swift */,
+				607590BA1B50CBFB0041FEB3 /* Main.storyboard */,
+				607590BD1B50CBFB0041FEB3 /* Images.xcassets */,
+				607590BF1B50CBFB0041FEB3 /* LaunchScreen.xib */,
+				607590B41B50CBFB0041FEB3 /* Supporting Files */,
+				6075914D1B5107AA0041FEB3 /* ViewControllerV.h */,
+				6075914E1B5107AA0041FEB3 /* ViewControllerV.m */,
+				6075914F1B5107AA0041FEB3 /* ViewControllerV.xib */,
+				607591521B5107C20041FEB3 /* TableViewCell.h */,
+				607591531B5107C20041FEB3 /* TableViewCell.m */,
+				607591541B5107C20041FEB3 /* TableViewCell.xib */,
+			);
+			path = MyAppForBiyabi;
+			sourceTree = "<group>";
+		};
+		607590B41B50CBFB0041FEB3 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				607590B51B50CBFB0041FEB3 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		607590C91B50CBFB0041FEB3 /* MyAppForBiyabiTests */ = {
+			isa = PBXGroup;
+			children = (
+				607590CC1B50CBFB0041FEB3 /* MyAppForBiyabiTests.swift */,
+				607590CA1B50CBFB0041FEB3 /* Supporting Files */,
+			);
+			path = MyAppForBiyabiTests;
+			sourceTree = "<group>";
+		};
+		607590CA1B50CBFB0041FEB3 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				607590CB1B50CBFB0041FEB3 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		607590B01B50CBFB0041FEB3 /* MyAppForBiyabi */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 607590D01B50CBFB0041FEB3 /* Build configuration list for PBXNativeTarget "MyAppForBiyabi" */;
+			buildPhases = (
+				607590AD1B50CBFB0041FEB3 /* Sources */,
+				607590AE1B50CBFB0041FEB3 /* Frameworks */,
+				607590AF1B50CBFB0041FEB3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MyAppForBiyabi;
+			productName = MyAppForBiyabi;
+			productReference = 607590B11B50CBFB0041FEB3 /* MyAppForBiyabi.app */;
+			productType = "com.apple.product-type.application";
+		};
+		607590C51B50CBFB0041FEB3 /* MyAppForBiyabiTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 607590D31B50CBFB0041FEB3 /* Build configuration list for PBXNativeTarget "MyAppForBiyabiTests" */;
+			buildPhases = (
+				607590C21B50CBFB0041FEB3 /* Sources */,
+				607590C31B50CBFB0041FEB3 /* Frameworks */,
+				607590C41B50CBFB0041FEB3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				607590C81B50CBFB0041FEB3 /* PBXTargetDependency */,
+			);
+			name = MyAppForBiyabiTests;
+			productName = MyAppForBiyabiTests;
+			productReference = 607590C61B50CBFB0041FEB3 /* MyAppForBiyabiTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		607590A91B50CBFB0041FEB3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = test;
+				TargetAttributes = {
+					607590B01B50CBFB0041FEB3 = {
+						CreatedOnToolsVersion = 6.3.1;
+					};
+					607590C51B50CBFB0041FEB3 = {
+						CreatedOnToolsVersion = 6.3.1;
+						TestTargetID = 607590B01B50CBFB0041FEB3;
+					};
+				};
+			};
+			buildConfigurationList = 607590AC1B50CBFB0041FEB3 /* Build configuration list for PBXProject "MyAppForBiyabi" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 607590A81B50CBFB0041FEB3;
+			productRefGroup = 607590B21B50CBFB0041FEB3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				607590B01B50CBFB0041FEB3 /* MyAppForBiyabi */,
+				607590C51B50CBFB0041FEB3 /* MyAppForBiyabiTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		607590AF1B50CBFB0041FEB3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				607590BC1B50CBFB0041FEB3 /* Main.storyboard in Resources */,
+				607591561B5107C20041FEB3 /* TableViewCell.xib in Resources */,
+				607591511B5107AA0041FEB3 /* ViewControllerV.xib in Resources */,
+				607590C11B50CBFB0041FEB3 /* LaunchScreen.xib in Resources */,
+				607590BE1B50CBFB0041FEB3 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		607590C41B50CBFB0041FEB3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		607590AD1B50CBFB0041FEB3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				607590DC1B50CF6C0041FEB3 /* ViewAController.m in Sources */,
+				607591551B5107C20041FEB3 /* TableViewCell.m in Sources */,
+				607590D91B50CEC30041FEB3 /* TestModel.m in Sources */,
+				607590B91B50CBFB0041FEB3 /* ViewController.swift in Sources */,
+				607590B71B50CBFB0041FEB3 /* AppDelegate.swift in Sources */,
+				607591501B5107AA0041FEB3 /* ViewControllerV.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		607590C21B50CBFB0041FEB3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				607590CD1B50CBFB0041FEB3 /* MyAppForBiyabiTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		607590C81B50CBFB0041FEB3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 607590B01B50CBFB0041FEB3 /* MyAppForBiyabi */;
+			targetProxy = 607590C71B50CBFB0041FEB3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		607590BA1B50CBFB0041FEB3 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				607590BB1B50CBFB0041FEB3 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		607590BF1B50CBFB0041FEB3 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				607590C01B50CBFB0041FEB3 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		607590CE1B50CBFB0041FEB3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		607590CF1B50CBFB0041FEB3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		607590D11B50CBFB0041FEB3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				INFOPLIST_FILE = MyAppForBiyabi/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "MyAppForBiyabi-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		607590D21B50CBFB0041FEB3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				INFOPLIST_FILE = MyAppForBiyabi/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "MyAppForBiyabi-Bridging-Header.h";
+			};
+			name = Release;
+		};
+		607590D41B50CBFB0041FEB3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = MyAppForBiyabiTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MyAppForBiyabi.app/MyAppForBiyabi";
+			};
+			name = Debug;
+		};
+		607590D51B50CBFB0041FEB3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = MyAppForBiyabiTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MyAppForBiyabi.app/MyAppForBiyabi";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		607590AC1B50CBFB0041FEB3 /* Build configuration list for PBXProject "MyAppForBiyabi" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				607590CE1B50CBFB0041FEB3 /* Debug */,
+				607590CF1B50CBFB0041FEB3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		607590D01B50CBFB0041FEB3 /* Build configuration list for PBXNativeTarget "MyAppForBiyabi" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				607590D11B50CBFB0041FEB3 /* Debug */,
+				607590D21B50CBFB0041FEB3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		607590D31B50CBFB0041FEB3 /* Build configuration list for PBXNativeTarget "MyAppForBiyabiTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				607590D41B50CBFB0041FEB3 /* Debug */,
+				607590D51B50CBFB0041FEB3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 607590A91B50CBFB0041FEB3 /* Project object */;
+}
